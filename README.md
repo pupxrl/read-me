@@ -1,7 +1,13 @@
 ```js
-  const pup = new Developer({
-    languages: ["JavaScript", "HTML", "CSS"],
-    frameworks: ["React", "Express"],
-    certificate: "Full-Stack Web Development HyperionDev Imperial College London"
-  })
+const Me = new Developer({
+  name: "pup",
+  languages: ["JavaScript", "HTML", "CSS"],
+  frameworks: ["React", "Express", "Node.js"],
+  tools: ["Git", "Docker", "VSC"],
+  databases: ["MongoDB"],
+  certifications: [
+    "Full-Stack Web Development - HyperionDev & Imperial College London"
+  ],
+  passions: ["AI", "Web Development", "Coffee"]
+})
 ```
